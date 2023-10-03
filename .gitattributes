@@ -1,4 +1,4 @@
-*.Dart linguist-detectable=true
+*.dart linguist-detectable=true
 *.h linguist-language=Dart
 *.cpp linguist-language=Dart
 *.Makefile linguist-detectable=false
