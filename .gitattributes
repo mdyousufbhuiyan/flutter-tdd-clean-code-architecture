@@ -1,4 +1,3 @@
-*.java linguist-vendored=true
 *linguist-vendored
-*.js linguist-vendored=false
+*.makefile linguist-vendored=false
 
