@@ -1,5 +1,5 @@
 *.dart linguist-detectable=false
-*.csharp linguist-detectable=false
+*.Makefile linguist-detectable=false
 *.java linguist-detectable=false  
 *.js linguist-detectable=false  
 *.html linguist-detectable=false  
