@@ -1,4 +1,4 @@
-*.flutter linguist-detectable=false
+*.Dart linguist-detectable=true
 *.makefile linguist-detectable=false
 *.java linguist-detectable=false  
 *.js linguist-detectable=false  
