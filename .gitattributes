@@ -1,4 +1,4 @@
 *.java linguist-vendored=true
- linguist-vendored
+*linguist-vendored
 *.js linguist-vendored=false
 
