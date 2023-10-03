@@ -1,6 +1,6 @@
 *.dart linguist-detectable=true
-*.h linguist-language=Dart
-*.cpp linguist-language=Dart
+*.h linguist-language=dart
+*.cpp linguist-language=dart
 *.Makefile linguist-detectable=false
 *.java linguist-detectable=false  
 *.js linguist-detectable=false  
