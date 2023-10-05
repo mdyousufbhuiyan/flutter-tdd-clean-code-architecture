@@ -7,6 +7,8 @@ import 'package:my_sample_news_app_flutter/domain/usecase/get_news_usecase.dart'
 
 import 'get_news_test.mocks.dart';
 
+//if we run this command fake repository  will be generated  for NewsRepository
+//flutter pub run build_runner build
 @GenerateMocks([NewsRepository])
 void main() {
   late NewsRepository _repository;
@@ -23,10 +25,12 @@ void main() {
       final news = NewsRespone.empty();
 
       when(_repository.getNews()).thenAnswer((realInvocation) async => news);
+     // when(_repository.getNews()).thenAnswer((realInvocation) async =>  NewsRespone(status: "surress",totalResults: 1,articles: []));
 
       final result = await _useCase.call(null);
 
       expect(result.news, NewsRespone.empty());
+   //   expect(result.news, NewsRespone(status: "surress",totalResults: 1,articles: []));
       expect(result.isSuccess, true);
     },
   );
