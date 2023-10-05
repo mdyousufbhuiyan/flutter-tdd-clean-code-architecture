@@ -23,12 +23,12 @@ void main() {
     "Should return news",
     () async {
       final news = NewsRespone.empty();
-
+     //arrange  means set fake response
       when(_repository.getNews()).thenAnswer((realInvocation) async => news);
      // when(_repository.getNews()).thenAnswer((realInvocation) async =>  NewsRespone(status: "surress",totalResults: 1,articles: []));
-
+      // act
       final result = await _useCase.call(null);
-
+      // assert
       expect(result.news, NewsRespone.empty());
    //   expect(result.news, NewsRespone(status: "surress",totalResults: 1,articles: []));
       expect(result.isSuccess, true);
