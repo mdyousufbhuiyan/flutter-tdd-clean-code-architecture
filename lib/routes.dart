@@ -5,7 +5,7 @@ import 'package:my_sample_news_app_flutter/presentation/feature/home/view/home_p
 final List<GetPage> appPages = [
   GetPage(
       name:  HomePage.routeName,
-      page: () => const HomePage(),
+      page: () => HomePage(),
       binding: HomeBinding(),
       transition: Transition.upToDown)
 ];

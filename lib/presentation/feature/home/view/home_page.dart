@@ -6,7 +6,7 @@ import 'detail_page.dart';
 
 class HomePage extends GetView<HomeController> {
    static const routeName = "/homePage";
-  const HomePage({Key? key}) : super(key: key);
+   HomePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

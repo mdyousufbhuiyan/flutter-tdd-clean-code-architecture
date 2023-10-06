@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:my_sample_news_app_flutter/utils/constant.dart';
+import 'package:my_sample_news_app_flutter/core/constant.dart';
 
 class ApiDataSource extends GetConnect {
   Future<Response> getNewsRes() async {

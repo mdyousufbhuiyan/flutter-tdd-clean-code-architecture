@@ -18,7 +18,10 @@ dependencies:
   cupertino_icons: ^1.0.2
   equatable: ^2.0.3
   get: ^4.1.4
-
+  # Remote API
+  internet_connection_checker: ^1.0.0+1
+  #secure shared preferences
+  flutter_secure_storage: ^8.0.0
 
 dev_dependencies:
   flutter_test:
